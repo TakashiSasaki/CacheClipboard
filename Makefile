@@ -1,4 +1,7 @@
-.PHONY: prepare
+.PHONY: prepare pull
+
+pull:
+	clasp pull
 
 prepare:
 	sudo apt-get update; \
